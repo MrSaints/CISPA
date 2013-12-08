@@ -5,7 +5,7 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Foundation, jQuery, Zepto
-  Software: Coda, Textmate, Git, InType
+  Software: Coda, Textmate, Git, InType, Sublime Text 3
 
 /* TEAM */
   Ian Lai
