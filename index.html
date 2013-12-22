@@ -1,401 +1,399 @@
 <!DOCTYPE html>
-<!--[if IE 8]>			<html class="no-js lt-ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#" ng-app> <![endif]-->
-<!--[if gt IE 8]><!-->	<html class="no-js" lang="en" xmlns:fb="http://ogp.me/ns/fb#" ng-app> <!--<![endif]-->
+<html class="no-js" lang="en" xmlns:fb="http://ogp.me/ns/fb#" ng-app>
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<title>United Against CISPA - Say yes to privacy!</title>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,700" />
-	<link rel="stylesheet" href="stylesheets/normalize.css" />
-	<link rel="stylesheet" href="stylesheets/app.css" />
-	<script src="javascripts/vendor/custom.modernizr.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>United Against CISPA - Say yes to privacy!</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oxygen:400,700">
+    <link rel="stylesheet" href="assets/css/cispa.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 </head>
 
 <body>
-	<!-- Facebook -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=240182709365625";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=240182709365625";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-	<!-- Header -->
-	<div class="fixed contain-to-grid">
-		<nav class="top-bar">
-			<!-- Title -->
-			<ul class="title-area">
-				<li class="name">
-					<h1><a href="#home">United Against CISPA </a></h1>
-				</li>
-				<!-- Mobile -->
-				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-			</ul>
+    <!-- Header -->
+    <div class="fixed contain-to-grid">
+        <nav class="top-bar" data-topbar>
+            <!-- Title -->
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#home">United Against CISPA </a></h1>
+                </li>
+                <!-- Mobile -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
 
-			<!-- Navigation -->
-			<section class="top-bar-section">
-			<!-- Left Nav Section -->
-				<ul class="right">
-					<li class="divider"></li>
-					<li class="link active"><a href="#home">Home</a></li>
-					<li class="divider"></li>
-					<li class="link"><a href="#cispa">About CISPA</a></li>
-					<li class="divider"></li>
-					<li class="link"><a href="#about">About Us</a></li>
-					<li class="divider"></li>
-					<li class="link"><a href="#action">Take Action</a>
-					<li class="divider"></li>
-					<li class="link"><a href="#resources">Resources</a>
-					<li class="divider"></li>
-					<li class="link"><a href="#press">Press</a>
-				</ul>
-			</section>
-		</nav>
-	</div>
-	
-	<div class="wrapper">
+            <!-- Navigation -->
+            <section class="top-bar-section">
+            <!-- Left Nav Section -->
+                <ul class="right">
+                    <li class="link active"><a href="#home">Home</a></li>
+                    <li class="divider"></li>
+                    <li class="link"><a href="#cispa">About CISPA</a></li>
+                    <li class="divider"></li>
+                    <li class="link"><a href="#about">About Us</a></li>
+                    <li class="divider"></li>
+                    <li class="link"><a href="#action">Take Action</a>
+                    <li class="divider"></li>
+                    <li class="link"><a href="#resources">Resources</a>
+                    <li class="divider"></li>
+                    <li class="link"><a href="#press">Press</a>
+                </ul>
+            </section>
+        </nav>
+    </div>
+    
+    <div class="wrapper">
 
-	<section class="intro page">
-		<a name="home"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h1>United Against <strong>CISPA</strong></h1>
-				<h5 class="subheader">Your privacy is hanging by a thin thread</h5>
-			</div>
-		</div>
-		<div class="action row">
-			<div class="large-12 columns">
-				<a href="#cispa" class="medium button">Find Out More</a>
-				<a href="#action" class="medium button alert">Take Action</a>
-			</div>
-		</div>
-	</section>
-	
-	<section class="details block page">
-		<a name="cispa"></a>
-		<div class="row">
-			<div class="large-6 columns">
-				<h2>What?</h2>
-				<p>
-					<blockquote>
-						CISPA stands for <b>The Cyber Intelligence Sharing and Protection Act</b>, a network and Internet security bill written by Rep. Mike Rogers (R-MI) and Dutch Ruppersberger (D-MD) (H.R. 624). The bill purports to allow companies and the federal government to <b>share information</b> to prevent or defend against network and other Internet attacks. However, the bill grants broad new powers, allowing companies to identify and obtain "threat information" by looking at your <b>private information</b>. It is written so broadly that it allows companies to hand over large swaths of <b>personal information</b> to the government with no judicial oversight-effectively creating a "cybersecurity" loophole in all existing privacy laws.
-						<cite><a href="https://www.eff.org/cybersecurity-bill-faq#cispa">Electronic Frontier Foundation</a></cite>
-					</blockquote>
-				</p>
-			</div>
-			<div class="large-6 columns">
-				<h2>When?</h2>
-				<dl>
-				  <dt>November 30, 2011</dt>
-				  <dd>The legislation was introduced by U.S. Representative Michael Rogers (R-MI) and 111 co-sponsors.</dd>
-				  <dt>April 26, 2012</dt>
-				  <dd>CISPA is passed in the U.S. House of Representatives (248-168), but it was not passed by the U.S. Senate.</dd>
-				  <dt>February 12, 2013</dt>
-				  <dd>CISPA is back! The bill was reintroduced in the House.</dd>
-				</dl>
-			</div>
-		</div>
-		<div class="why row">
-			<div class="large-12 columns">
-				<h2>Why?</h2>
-				<p>
-					Here are five reasons why you should care about CISPA and ensure it is not ratified:
-					<ol>
-						<li>CISPA does away with important information-sharing barriers between the government, military and private sector.</li>
-						<li>The restrictions on what can be snooped or how that information can be used are vague.</li>
-						<li>If a company violates your privacy, you have to go to the moon to hold them liable.</li>
-						<li>The bill's definition of "cybersecurity purpose" is too broad and vague. </li>
-						<li>There may be a better, wiser, narrower bill in the offing.</li>
-					</ol>
-					<small><a href="http://techland.time.com/2012/04/19/5-reasons-the-cispa-cybersecurity-bill-should-be-tossed/">[Source: Time Tech Opinion]</a></small>
-				</p>
-			</div>
-		</div>
-	</section>
-	
-	<section class="media block">
-		<a name="media"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Not convinced?</h2>
-				<h3>The internet knows a lot about <strong>you</strong>...</h3>
-			</div>
-		</div>
-		<div class="row video">
-			<div class="large-12 columns">
-				<div class="flex-video">
-					<iframe width="560" height="315" src="http://www.youtube.com/embed/F7pYHN9iC9I?wmode=transparent" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="about block page">
-		<a name="about"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Who are we?</h2>
-				<p>
-					<blockquote>
-						Once it is on the internet, it is there forever.
-						<cite>Someone</cite>
-					</blockquote>
-					We are students from the <a href="http://lse.ac.uk">London School of Economics and Political Science (LSE)</a> 
-					and we have a shared commitment towards maintaining fundamental human liberties, particularly on the internet. 
-					We have different justifications towards campaigning against CISPA but ultimately, our viewpoint is that it is a 
-					bill that has severe implications on our human rights and its ratification will simply "open the 
-					floodgates" for more privacy-intruding bills. <strong>Get to know us:</strong>
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-3 columns">
-				<a class="th" href="#">
-					<img src="images/profile.jpg" />
-				</a>
-				<p>
-					<h4>Ian Lai</h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
-				</p>
-			</div>
-			<div class="large-3 columns">
-				<a class="th" href="#">
-					<img src="images/profile.jpg" />
-				</a>
-				<p>
-					<h4>Anisha Shah</h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
-				</p>
-			</div>
-			<div class="large-3 columns">
-				<a class="th" href="#">
-					<img src="images/profile.jpg" />
-				</a>
-				<p>
-					<h4>Menhaj Ahmed</h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
-				</p>
-			</div>
-			<div class="large-3 columns">
-				<a class="th" href="#">
-					<img src="images/profile.jpg" />
-				</a>
-				<p>
-					<h4>Amy Clarke</h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
-				</p>
-			</div>
-		</div>
-	</section>
-	
-	<section class="respond block page" ng-controller="ActCtrl">
-		<a name="action"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Take Action</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-12 columns">
-				<div class="panel">
-					<p>
-						We have compiled a really short list of things you can do to take 
-						action against CISPA. Non-U.S. residents can also take part in the 
-						campaign and we strongly encourage you to do so! A large majority of
-						popular websites are based in the U.S. and hence, the ratification of CISPA 
-						will have ramifications on you as a user.
-					</p>
-					<h3>Check the actions below as you complete them:</h3>
-					<form class="custom todos">
-						<div class="row">
-							<div class="large-4 columns">
-								<label for="task_1" ng-click="checkTask(1)">
-									<input type="checkbox" id="task_1" style="display: none;">
-									<span class="custom checkbox"></span> <b>Learn more! Gain awareness!</b>
-								</label>
-							</div>
-							<div class="large-8 columns">
-								Educate yourself about CISPA and learn about its 
-								advantages as well as its disadvantages. Check out 
-								our <a href="#resources">resources</a> section for more information.
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-4 columns">
-								<label for="task_2" ng-click="checkTask(2)">
-									<input type="checkbox" id="task_2" style="display: none;">
-									<span class="custom checkbox"></span> <b>Sign or promote petitions!</b>
-								</label>
-							</div>
-							<div class="large-8 columns">
-								If you are a citizen of the U.S., sign the White House "We The People"
-								CISPA petition <a href="https://petitions.whitehouse.gov/petition/stop-cispa-cyber-intelligence-sharing-and-protection-act/19sQhBpy">
-								here</a>. If you are not a citizen of the U.S., promote the link above or sign 
-								a universal CISPA petition <a href="http://www.avaaz.org/en/stop_cispa/">here</a>.
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-4 columns">
-								<label for="task_3" ng-click="checkTask(3)">
-									<input type="checkbox" id="task_3" style="display: none;">
-									<span class="custom checkbox"></span> <b>Pressure policy-makers!</b>
-								</label>
-							</div>
-							<div class="large-8 columns">
-								Contact your local representatives to take a more active 
-								role against CISPA. If they are supporters of CISPA tell 
-								them why you are against it and influence them to take action! 
-								For more information please visit our partner 
-								<a href="http://www.cispaisback.org/">here</a>.
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-4 columns">
-								<label for="task_4" ng-click="checkTask(4)">
-									<input type="checkbox" id="task_4" style="display: none;">
-									<span class="custom checkbox"></span> <b>Spread our action-kit!</b>
-								</label>
-							</div>
-							<div class="large-8 columns">
-								Visit our <a href="#resources">resources</a> section to download posters, banners, 
-								infographics and more! Spread the resources to your friends and family, 
-								and place these resources around your local community boards!
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-4 columns">
-								<label for="task_5" ng-click="checkTask(5)">
-									<input type="checkbox" id="task_5" style="display: none;">
-									<span class="custom checkbox"></span> <b>Social media!</b>
-								</label>
-							</div>
-							<div class="large-8 columns">
-								Let us start a social media campaign! Like us on Facebook or follow us on Twitter 
-								<i>(links are below)</i>. Tweet out against CISPA using the #NoCISPA hash tag and see 
-								your message appear in our global action map below.
-							</div>
-						</div>
-					</form>
-					<div class="progress success"><span class="meter" ng-style="{width: completed() + '%' }"></span></div>
-					<div data-alert class="alert-box completed">You have completed {{completed()}}% of the tasks!</div>
-					
-					<h3>Share your achievements!</h3>
-					<div class="achievements row">
-						<div class="large-4 columns">
-							<a ng-href="https://twitter.com/intent/tweet?button_hashtag=NoCISPA&amp;text=I%20have%20completed%20{{completed()}}%25%20of%20all%20the%20actions%20on%20United%20Against%20CISPA.%20Can%20you%20beat%20me%3F" class="twitter-hashtag-button" data-size="large" data-related="MrSaints,UACISPA">Tweet #NoCISPA</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-						</div>
-						<div class="large-4 columns">
-							<fb:like href="https://www.facebook.com/pages/FIGHT-CISPA/479815612085619" send="true" width="225" show_faces="true"></fb:like>
-						</div>
-						<div class="large-4 columns">
-							<script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="twitter block" ng-controller="TwitterCtrl">
-		<a name="twitter"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Latest <strong>#NoCISPA</strong></h2>
-			</div>
-		</div>
+    <section id="home" class="intro page">
+        <a name="home"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h1>United Against <strong>CISPA</strong></h1>
+                <h5 class="subheader">Your privacy is hanging by a thin thread</h5>
+            </div>
+        </div>
+        <div class="action row">
+            <div class="large-12 columns">
+                <a href="#cispa" class="medium button">Find Out More</a>
+                <a href="#action" class="medium button alert">Take Action</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="cispa" class="details block page">
+        <a name="cispa"></a>
+        <div class="row">
+            <div class="large-6 columns">
+                <h2>What?</h2>
+                <p>
+                    <blockquote>
+                        CISPA stands for <b>The Cyber Intelligence Sharing and Protection Act</b>, a network and Internet security bill written by Rep. Mike Rogers (R-MI) and Dutch Ruppersberger (D-MD) (H.R. 624). The bill purports to allow companies and the federal government to <b>share information</b> to prevent or defend against network and other Internet attacks. However, the bill grants broad new powers, allowing companies to identify and obtain "threat information" by looking at your <b>private information</b>. It is written so broadly that it allows companies to hand over large swaths of <b>personal information</b> to the government with no judicial oversight-effectively creating a "cybersecurity" loophole in all existing privacy laws.
+                        <cite><a href="https://www.eff.org/cybersecurity-bill-faq#cispa">Electronic Frontier Foundation</a></cite>
+                    </blockquote>
+                </p>
+            </div>
+            <div class="large-6 columns">
+                <h2>When?</h2>
+                <dl>
+                  <dt>November 30, 2011</dt>
+                  <dd>The legislation was introduced by U.S. Representative Michael Rogers (R-MI) and 111 co-sponsors.</dd>
+                  <dt>April 26, 2012</dt>
+                  <dd>CISPA is passed in the U.S. House of Representatives (248-168), but it was not passed by the U.S. Senate.</dd>
+                  <dt>February 12, 2013</dt>
+                  <dd>CISPA is back! The bill was reintroduced in the House.</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="why row">
+            <div class="large-12 columns">
+                <h2>Why?</h2>
+                <p>
+                    Here are five reasons why you should care about CISPA and ensure it is not ratified:
+                    <ol>
+                        <li>CISPA does away with important information-sharing barriers between the government, military and private sector.</li>
+                        <li>The restrictions on what can be snooped or how that information can be used are vague.</li>
+                        <li>If a company violates your privacy, you have to go to the moon to hold them liable.</li>
+                        <li>The bill's definition of "cybersecurity purpose" is too broad and vague. </li>
+                        <li>There may be a better, wiser, narrower bill in the offing.</li>
+                    </ol>
+                    <small><a href="http://techland.time.com/2012/04/19/5-reasons-the-cispa-cybersecurity-bill-should-be-tossed/">[Source: Time Tech Opinion]</a></small>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="media" class="media block">
+        <a name="media"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Not convinced?</h2>
+                <h3>The internet knows a lot about <strong>you</strong>...</h3>
+            </div>
+        </div>
+        <div class="row video">
+            <div class="large-12 columns">
+                <div class="flex-video">
+                    <iframe width="560" height="315" src="//www.youtube.com/embed/F7pYHN9iC9I?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about block page">
+        <a name="about"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Who are we?</h2>
+                <p>
+                    <blockquote>
+                        Once it is on the internet, it is there forever.
+                        <cite>Someone</cite>
+                    </blockquote>
+                    We are students from the <a href="http://lse.ac.uk">London School of Economics and Political Science (LSE)</a> 
+                    and we have a shared commitment towards maintaining fundamental human liberties, particularly on the internet. 
+                    We have different justifications towards campaigning against CISPA but ultimately, our viewpoint is that it is a 
+                    bill that has severe implications on our human rights and its ratification will simply "open the 
+                    floodgates" for more privacy-intruding bills. <strong>Get to know us:</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-3 columns">
+                <a class="th" href="#">
+                    <img src="assets/img/profile.jpg">
+                </a>
+                <p>
+                    <h4>Ian Lai</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
+                </p>
+            </div>
+            <div class="large-3 columns">
+                <a class="th" href="#">
+                    <img src="assets/img/profile.jpg">
+                </a>
+                <p>
+                    <h4>Anisha Shah</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
+                </p>
+            </div>
+            <div class="large-3 columns">
+                <a class="th" href="#">
+                    <img src="assets/img/profile.jpg">
+                </a>
+                <p>
+                    <h4>Menhaj Ahmed</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
+                </p>
+            </div>
+            <div class="large-3 columns">
+                <a class="th" href="#">
+                    <img src="assets/img/profile.jpg">
+                </a>
+                <p>
+                    <h4>Amy Clarke</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl eros, adipiscing in posuere eget, tristique vel nisl. Integer in erat aliquam, adipiscing dolor ut, elementum felis. In commodo rhoncus elit, vel scelerisque nisl cursus a. Nulla facilisi. Nam et porttitor mauris. Sed neque neque, mollis eu condimentum vitae, dictum sed elit. Maecenas tempor justo non dui placerat laoreet. Donec pharetra eu mauris non egestas. Pellentesque nisl felis, fermentum in magna sit amet, pharetra facilisis ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="action" class="respond block page" ng-controller="ActCtrl">
+        <a name="action"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Take Action</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="panel">
+                    <p>
+                        We have compiled a really short list of things you can do to take 
+                        action against CISPA. Non-U.S. residents can also take part in the 
+                        campaign and we strongly encourage you to do so! A large majority of
+                        popular websites are based in the U.S. and hence, the ratification of CISPA 
+                        will have ramifications on you as a user.
+                    </p>
+                    <h3>Check the actions below as you complete them:</h3>
+                    <form class="custom todos">
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label for="task_1">
+                                    <input type="checkbox" id="task_1" ng-model="tasks[1]">
+                                    <b>Learn more! Gain awareness!</b>
+                                </label>
+                            </div>
+                            <div class="large-8 columns">
+                                Educate yourself about CISPA and learn about its 
+                                advantages as well as its disadvantages. Check out 
+                                our <a href="#resources">resources</a> section for more information.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label for="task_2">
+                                    <input type="checkbox" id="task_2" ng-model="tasks[2]">
+                                    <span class="custom checkbox"></span> <b>Sign or promote petitions!</b>
+                                </label>
+                            </div>
+                            <div class="large-8 columns">
+                                If you are a citizen of the U.S., sign the White House "We The People"
+                                CISPA petition <a href="//petitions.whitehouse.gov/petition/stop-cispa-cyber-intelligence-sharing-and-protection-act/19sQhBpy">
+                                here</a>. If you are not a citizen of the U.S., promote the link above or sign 
+                                a universal CISPA petition <a href="http://www.avaaz.org/en/stop_cispa/">here</a>.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label for="task_3">
+                                    <input type="checkbox" id="task_3" ng-model="tasks[3]">
+                                    <span class="custom checkbox"></span> <b>Pressure policy-makers!</b>
+                                </label>
+                            </div>
+                            <div class="large-8 columns">
+                                Contact your local representatives to take a more active 
+                                role against CISPA. If they are supporters of CISPA tell 
+                                them why you are against it and influence them to take action! 
+                                For more information please visit our partner 
+                                <a href="http://www.cispaisback.org/">here</a>.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label for="task_4">
+                                    <input type="checkbox" id="task_4" ng-model="tasks[4]">
+                                    <span class="custom checkbox"></span> <b>Spread our action-kit!</b>
+                                </label>
+                            </div>
+                            <div class="large-8 columns">
+                                Visit our <a href="#resources">resources</a> section to download posters, banners, 
+                                infographics and more! Spread the resources to your friends and family, 
+                                and place these resources around your local community boards!
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label for="task_5">
+                                    <input type="checkbox" id="task_5" ng-model="tasks[5]">
+                                    <span class="custom checkbox"></span> <b>Social media!</b>
+                                </label>
+                            </div>
+                            <div class="large-8 columns">
+                                Let us start a social media campaign! Like us on Facebook or follow us on Twitter 
+                                <i>(links are below)</i>. Tweet out against CISPA using the #NoCISPA hash tag and see 
+                                your message appear in our global action map below.
+                            </div>
+                        </div>
+                    </form>
+                    <div class="progress success"><span class="meter" ng-style="{width: completed() + '%' }"></span></div>
+                    <div data-alert class="alert-box completed">You have completed {{completed()}}% of the tasks!</div>
 
-		<div class="row">
-			<div class="large-12 columns">
-				<table class="tweets">
-					<tbody>
-						<tr ng-repeat="tweet in tweets">
-							<td>
-								<a ng-href="http://www.twitter.com/{{tweet.from_user}}" class="th">
-									<img ng-src="{{tweet.profile_image_url}}" />
-								</a>
-							</td>
-							<td><a ng-href="http://www.twitter.com/{{tweet.from_user}}">@{{tweet.from_user}}</a></td>
-							<td>{{tweet.text}}</td>
-						</tr>
-						<tr ng-show="tweets.length == 0">
-							<td colspan="3">Loading...</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</section>
-	
-	<section class="resources block dark page">
-		<a name="resources"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Resources</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-6 columns">
-				<h3>Useful Links</h3>
-				<ul>
-					<li><a href="https://www.eff.org/cybersecurity-bill-faq" target="_blank">Electronic Frontier Foundation - CISPA is Back (FAQ).</a></li>
-					<li><a href="http://www.cispaisback.org/" target="_blank">CISPA is back.</a></li>
-					<li><a href="https://act.demandprogress.org/sign/cispa_is_back" target="_blank">Demand Progress - CISPA is back.</a></li>
-					<li><a href="http://news.cnet.com/8301-31921_3-57422693-281/how-cispa-would-affect-you-faq/" target="_blank">CNET - How CISPA would affect you (FAQ).</a></li>
-					<li><a href="http://rt.com/usa/white-house-cispa-petition-165/" target="_blank">RT USA - White House must respond to 'Stop CISPA' petition.</a></li>
-					<li><a href="http://mashable.com/2013/03/19/reddit-craigslist-cispa/" target="_blank">Mashable - Reddit, Craigslist and 30,000 Other Websites Oppose CISPA.</a></li>
-					<li><a href="http://www.theverge.com/2013/2/13/3984442/cispa-back-in-congress" target="_blank">The Verge - Controversial cyber bill CISPA returns to Congress for debate, same as before.</a></li>
-					<li><a href="http://dendory.net/?b=5123e177" target="_blank">How to really fight CISPA.</a></li>
-					<li><a href="http://www.savetheinternet.com/blog/2013/02/15/meet-new-cispa-same-old-cispa" target="_blank">Save The Internet - Meet the New CISPA. Same as the Old CISPA.</a></li>
-					<li><a href="https://www.accessnow.org/page/s/protect-our-privacy" target="_blank">Access - Tell Tech Companies: Protect Our Privacy.</a></li>
-				</ul>
-			</div>
-			<div class="large-6 columns">
-				<h3>Graphics</h3>
-				<li><a href="http://lumeninteractive.com/cispa/" target="_blank">Lumen Interactive: SOPA's Evil Twin Sister - CISPA (Infographic).</a></li>
-				<li><a href="http://www.getelastic.com/what-you-need-to-know-about-cispa-infographic/" target="_blank">Get Elastic: What You Need to Know About CISPA (Infographic).</a></li>
-				<li><a href="http://www.flickr.com/photos/ironcurtain/7730216022/" target="_blank">"Stop CISPA and Carry On" (Poster).</a></li>
-			</div>
-		</div>
-	</section>
-	
-	<section class="press block page">
-		<a name="press"></a>
-		<div class="row">
-			<div class="large-12 columns">
-				<h2>Press</h2>
-				<p>The Cyber Intelligence Sharing and Protection Act (CISPA) is a proposed "cyber security law" and a bi-partisan bill sponsored by Rep. Mike Rogers (R-MI) and Dutch Ruppersberger (D-MD) and co-sponsored by a cross section of representatives. The authors of CISPA described it as a bill "to provide for the sharing of certain cyber threat intelligence and cyber threat information between the intelligence community and cybersecurity entities".</p>
-				<p>It has however, been often described as a predecessor of the infamous Stop Online Piracy Act (SOPA) and PROTECT IP Act (PIPA) which gained a lot of backlash by the public in the last two years. Indeed, the Stop CISPA petition on the Whitehouse "We the People" platform has described it instead as a bill "about information sharing. It creates broad legal exemptions that allow the government to share 'cyber threat intelligence' with private companies, and companies to share 'cyber threat information' with the government, for the purposes of enhancing cyber security. The problems arise from the definitions of these terms, especially when it comes to companies sharing data with the feds".</p>
-				<p>Our group firmly endorse the proponents of the latter argument as we believe the ambiguities in the terms of CISPA, coupled with its short oversight have several implications on our freedom and rights to privacy. It is essentially what former American Republican Ron Paul called, "an Internet monitoring bill that permits both the federal government and private companies to view your private online communications with no judicial oversight, provided, of course, that they do so in the name of cyber security". We are in support of the President of the United States proposition in his Statement of Administration Policy which claimed that "the sharing of information must be conducted in a manner that preserves Americans' privacy, data confidentiality, and civil liberties and recognises the civilian nature of cyberspace. Cybersecurity and privacy are not mutually exclusive".</p>
-				<p>We are committed to a three point programme of action which encompasses a combination of active and passive activism to ensure CISPA and any other bills in the future will not threaten our fundamental human rights affirmed by the United Nations Declaration of Human Rights. Firstly, it is crucial to develop an awareness of the implications the bill has on our liberties and we must determine based on our own rationale, whether its cost outweighs its benefits or vice versa. Secondly, the dissemination of knowledge through social media (e.g. Twitter and Facebook) and other online communities (e.g. Reddit). We encourage individuals to foster debates inside and outside the internet to seek ways we can address the "security dilemma" while ensuring our fundamental human rights - perhaps even a revised CISPA. Thirdly, activism in all forms including the placement of posters in community areas and direct confrontation with your local representative. Passive activism alone will not cause any radical change; however, the spread of ideas coupled with physical action will achieve a lot more.</p>
-				<p>As of March 2013, CISPA is currently supported by a large lobby comprising of trade groups with over 800 private companies. We, the people, must ensure Net Neutrality and act as a bulwark to these large and influential actors, and their new "clandestine" practices. Corporations should be held accountable for the mishandling of our information and bills such as CISPA should not be passed as they would simply acquit any sort of responsibility from these corporations to ensure our privacy.</p>
-				<a href="#pdf" class="small button secondary">Download PDF</a>
-			</div>
-		</div>
-	</section>
-	
-	<footer class="block dark">
-		<div class="row">
-			<div class="large-12 columns">Proudly fueled by <a href="http://foundation.zurb.com/">Foundation</a> 
-			and <a href="http://angularjs.org/">AngularJS</a></div>
-		</div>
-	</footer>
-	
-	</div>
+                    <h3>Share your achievements!</h3>
+                    <div class="achievements row">
+                        <div class="large-4 columns">
+                            <a href="https://twitter.com/intent/tweet?button_hashtag=NoCISPA" class="twitter-hashtag-button" data-size="large" data-related="MrSaints,UACISPA,EFF" data-text="I have completed {{completed()}}% of all the actions on United Against CISPA. Can you beat me?">Tweet #NoCISPA</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                        <div class="large-4 columns">
+                            <fb:like href="https://www.facebook.com/pages/FIGHT-CISPA/479815612085619" send="true" width="225" show_faces="true"></fb:like>
+                        </div>
+                        <div class="large-4 columns">
+                            <script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="twitter" class="twitter block" ng-controller="TwitterCtrl">
+        <a name="twitter"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Latest <strong>#NoCISPA</strong></h2>
+            </div>
+        </div>
 
-	<!--<script>
-	document.write('<script src=' +
-	('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-	'.js><\/script>')
-	</script>-->
-	<script src="javascripts/vendor/jquery.js"></script>
-	<script src="javascripts/foundation/foundation.js"></script>
-	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	<script src="javascripts/foundation/foundation.forms.js"></script>
-	<script src="javascripts/vendor/angular.js"></script>
-	<script src="javascripts/app.js"></script>
+        <div class="row">
+            <div class="large-12 columns">
+                <table class="tweets">
+                    <tbody>
+                        <tr ng-repeat="tweet in tweets">
+                            <td>
+                                <a ng-href="http://www.twitter.com/{{tweet.user.screen_name}}" class="th">
+                                    <img ng-src="{{tweet.user.profile_image_url}}">
+                                </a>
+                            </td>
+                            <td><a ng-href="http://www.twitter.com/{{tweet.user.screen_name}}/status/{{tweet.id_str}}">@{{tweet.user.screen_name}}</a></td>
+                            <td>{{tweet.text}}</td>
+                        </tr>
+                        <tr ng-show="tweets.length == 0">
+                            <td colspan="3">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resources" class="resources block dark page">
+        <a name="resources"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Resources</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="https://www.eff.org/cybersecurity-bill-faq" target="_blank">Electronic Frontier Foundation - CISPA is Back (FAQ).</a></li>
+                    <li><a href="http://www.cispaisback.org/" target="_blank">CISPA is back.</a></li>
+                    <li><a href="https://act.demandprogress.org/sign/cispa_is_back" target="_blank">Demand Progress - CISPA is back.</a></li>
+                    <li><a href="http://news.cnet.com/8301-31921_3-57422693-281/how-cispa-would-affect-you-faq/" target="_blank">CNET - How CISPA would affect you (FAQ).</a></li>
+                    <li><a href="http://rt.com/usa/white-house-cispa-petition-165/" target="_blank">RT USA - White House must respond to 'Stop CISPA' petition.</a></li>
+                    <li><a href="http://mashable.com/2013/03/19/reddit-craigslist-cispa/" target="_blank">Mashable - Reddit, Craigslist and 30,000 Other Websites Oppose CISPA.</a></li>
+                    <li><a href="http://www.theverge.com/2013/2/13/3984442/cispa-back-in-congress" target="_blank">The Verge - Controversial cyber bill CISPA returns to Congress for debate, same as before.</a></li>
+                    <li><a href="http://dendory.net/?b=5123e177" target="_blank">How to really fight CISPA.</a></li>
+                    <li><a href="http://www.savetheinternet.com/blog/2013/02/15/meet-new-cispa-same-old-cispa" target="_blank">Save The Internet - Meet the New CISPA. Same as the Old CISPA.</a></li>
+                    <li><a href="https://www.accessnow.org/page/s/protect-our-privacy" target="_blank">Access - Tell Tech Companies: Protect Our Privacy.</a></li>
+                </ul>
+            </div>
+            <div class="large-6 columns">
+                <h3>Graphics</h3>
+                <li><a href="http://lumeninteractive.com/cispa/" target="_blank">Lumen Interactive: SOPA's Evil Twin Sister - CISPA (Infographic).</a></li>
+                <li><a href="http://www.getelastic.com/what-you-need-to-know-about-cispa-infographic/" target="_blank">Get Elastic: What You Need to Know About CISPA (Infographic).</a></li>
+                <li><a href="http://www.flickr.com/photos/ironcurtain/7730216022/" target="_blank">"Stop CISPA and Carry On" (Poster).</a></li>
+            </div>
+        </div>
+    </section>
+    
+    <section id="press" class="press block page">
+        <a name="press"></a>
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Press</h2>
+                <p>The Cyber Intelligence Sharing and Protection Act (CISPA) is a proposed "cyber security law" and a bi-partisan bill sponsored by Rep. Mike Rogers (R-MI) and Dutch Ruppersberger (D-MD) and co-sponsored by a cross section of representatives. The authors of CISPA described it as a bill "to provide for the sharing of certain cyber threat intelligence and cyber threat information between the intelligence community and cybersecurity entities".</p>
+                <p>It has however, been often described as a predecessor of the infamous Stop Online Piracy Act (SOPA) and PROTECT IP Act (PIPA) which gained a lot of backlash by the public in the last two years. Indeed, the Stop CISPA petition on the Whitehouse "We the People" platform has described it instead as a bill "about information sharing. It creates broad legal exemptions that allow the government to share 'cyber threat intelligence' with private companies, and companies to share 'cyber threat information' with the government, for the purposes of enhancing cyber security. The problems arise from the definitions of these terms, especially when it comes to companies sharing data with the feds".</p>
+                <p>Our group firmly endorse the proponents of the latter argument as we believe the ambiguities in the terms of CISPA, coupled with its short oversight have several implications on our freedom and rights to privacy. It is essentially what former American Republican Ron Paul called, "an Internet monitoring bill that permits both the federal government and private companies to view your private online communications with no judicial oversight, provided, of course, that they do so in the name of cyber security". We are in support of the President of the United States proposition in his Statement of Administration Policy which claimed that "the sharing of information must be conducted in a manner that preserves Americans' privacy, data confidentiality, and civil liberties and recognises the civilian nature of cyberspace. Cybersecurity and privacy are not mutually exclusive".</p>
+                <p>We are committed to a three point programme of action which encompasses a combination of active and passive activism to ensure CISPA and any other bills in the future will not threaten our fundamental human rights affirmed by the United Nations Declaration of Human Rights. Firstly, it is crucial to develop an awareness of the implications the bill has on our liberties and we must determine based on our own rationale, whether its cost outweighs its benefits or vice versa. Secondly, the dissemination of knowledge through social media (e.g. Twitter and Facebook) and other online communities (e.g. Reddit). We encourage individuals to foster debates inside and outside the internet to seek ways we can address the "security dilemma" while ensuring our fundamental human rights - perhaps even a revised CISPA. Thirdly, activism in all forms including the placement of posters in community areas and direct confrontation with your local representative. Passive activism alone will not cause any radical change; however, the spread of ideas coupled with physical action will achieve a lot more.</p>
+                <p>As of March 2013, CISPA is currently supported by a large lobby comprising of trade groups with over 800 private companies. We, the people, must ensure Net Neutrality and act as a bulwark to these large and influential actors, and their new "clandestine" practices. Corporations should be held accountable for the mishandling of our information and bills such as CISPA should not be passed as they would simply acquit any sort of responsibility from these corporations to ensure our privacy.</p>
+                <a href="#removed" class="small button secondary">Download PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="block dark">
+        <div class="row">
+            <div class="large-12 columns">
+            	Proudly fueled by <a href="//foundation.zurb.com">Foundation</a> 
+	            and <a href="//angularjs.org">AngularJS</a> &dash; 
+	            <a href="//github.com/MrSaints/CISPA">GitHub Project</a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/js/foundation.min.js"></script>
+    <script src="bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/cispa.js"></script>
 </body>
 </html>

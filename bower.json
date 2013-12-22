@@ -1,0 +1,25 @@
+{
+  "name": "CISPA",
+  "version": "2.0.0",
+  "homepage": "http://cispa.fyianlai.com",
+  "authors": [
+    "Ian Lai <ian@fyianlai.com>"
+  ],
+  "main": "index.html",
+  "license": "http://ian.mit-license.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "angular-latest": "~1.2.5",
+    "foundation": "~5.0.2",
+    "normalize-css": "~2.1.3",
+    "jquery.smooth-scroll": "~1.4.13"
+  }
+}

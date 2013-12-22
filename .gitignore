@@ -1,3 +1,6 @@
+# Created by http://gitignore.io
+
+### Windows ###
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -8,5 +11,12 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# SASS and Compass
+### SASS ###
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+### Compass ###
 .sass-cache
+
+### Bower ###
+bower_components

@@ -1,0 +1,156 @@
+@import "compass";
+@import "compass/layout";
+@import "normalize";
+@import "foundation";
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.contain-to-grid .top-bar { margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 { color: inherit; font-family: inherit }
+strong {
+    color: #FA3C1A;
+}
+
+.block {
+    @include box-shadow(0 -6px 15px 0 rgba(0, 0, 0, .4));
+    background: image-url('pattern.png') repeat;
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    padding: emCalc(50px);
+    &.dark {
+        background: image-url('pattern_dark.png') repeat;
+        color: #FFF;
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;  
+        }
+    }
+    h2 {
+        color: #23323E;
+    }
+}
+
+.intro {
+    h1 {
+        color: #EEE7DA;
+        font-weight: bold;
+        margin-top: 4em;
+        margin-bottom: .15em;
+    }
+    h5.subheader {
+        color: #E3C34C;
+    }
+    .action {
+        margin-top: 3em;
+        .alert {
+            margin-left: 1em;
+        }
+    }
+   
+    background: #000 image-url('background.jpg') center top no-repeat fixed;
+    @include background-size(cover);
+    height: emCalc(820px);
+    text-align: center;
+    text-shadow: 0 0 1em rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+}
+
+.details {
+    text-align: justify;
+    text-shadow: 0 1px 0 #FFF;
+
+    .why {
+        border-top: 1px solid darken(#FFF, 20%)
+    }
+}
+
+.media {
+    background: #000 image-url('background_2.jpg') center top no-repeat fixed;
+    @include background-size(cover);
+    color: #EEE7DA;
+    text-align: center;
+    text-shadow: 0 0 1em rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+
+    h2 {
+        color: #E3C34C;
+        margin-bottom: .15em;
+    }
+
+    .video {
+        margin-top: 3em;
+    }
+        .flex-video {
+            @include box-shadow(0 0 10px 0 #000);
+            background: #23323E;
+        }
+}
+
+.about {
+    text-align: justify;
+    text-shadow: 0 1px 0 #FFF;
+}
+
+.respond {
+    background: #000 image-url('background_3.jpg') center top no-repeat fixed;
+    h2 {
+        color: #EEE7DA;
+    }
+    @include background-size(cover);
+    
+    .panel {
+        @include box-shadow(0 0 10px 0 #000);
+    }
+    
+    .todos {
+        margin-top: 2em;
+        .row {
+            margin-bottom: 1.5em;
+        }
+    }
+    
+    .completed {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.twitter {
+    text-shadow: 0 1px 0 #FFF;
+    .tweets {
+        width: 100%;
+    }
+}
+
+.achievements {
+    text-align: center;
+}
+
+.resources {
+    text-shadow: 0 1px 1px #000;
+    a {
+        color: inherit;
+    }
+    h2 {
+        color: #EEE7DA;
+        border-bottom: 1px solid lighten(#000, 15%);
+    }
+    h3 {
+        color: #E3C34C;
+    }
+}
+
+.press {
+    a.button {
+        text-decoration: none;
+    }
+}
+
+footer.block {
+    padding: 1.6em 0;
+    text-align: center;
+}

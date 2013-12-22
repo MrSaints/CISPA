@@ -1,14 +1,28 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
 /* humanstxt.org */
 
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: Foundation, jQuery, Zepto
-  Software: Coda, Textmate, Git, InType, Sublime Text 3
-
 /* TEAM */
-  Ian Lai
-  Anisha Shah
-  Menhaj Ahmed
-  Amy Clarke
+	Web unicorn: Ian Lai
+	Contact: f.i.lai [at] lse.ac.uk
+	Twitter: @MrSaints
+	From: London, United Kingdom
+
+	Contributor: Anisha Shah
+
+	Contributor: Menhaj Ahmed
+
+	Contributor: Amy Clarke
+
+/* THANKS */
+	IS143, IS Department @ London School of Economics and Political Science
+	Site: lse.ac.uk
+
+	Foundation by ZURB
+	Site: foundation.zurb.com
+
+/* SITE */
+	Last update: 2013/12/23
+	Language: English
+	Standards: HTML5, CSS3 (SASS with Compass)
+	Components: Normalize.css, Foundation, Modernizr, jQuery
+	Software: Sublime Text 3, InType, Photoshop, Coda, Textmate, Git
+	Others: NPM, Bower, HTML5 Boilerplate
