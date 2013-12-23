@@ -23,6 +23,6 @@
 	Last update: 2013/12/23
 	Language: English
 	Standards: HTML5, CSS3 (SASS with Compass)
-	Components: Normalize.css, Foundation, Modernizr, jQuery
+	Components: Normalize.css, Foundation, Modernizr, jQuery, jQuery Smooth Scroll
 	Software: Sublime Text 3, InType, Photoshop, Coda, Textmate, Git
 	Others: NPM, Bower, HTML5 Boilerplate
